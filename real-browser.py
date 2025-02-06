@@ -31,7 +31,7 @@ async def main():
     task = (
         "Go to the Google Calendar webpage via the link I provided you. "
         "Check if there is an event scheduled for this month. "
-        "If there is any, return the event title and the time, if not create one for 27th jan at 10:00 am to 11:00 am named 'meeting with michael'"
+        "If there is any, return the event title and the time, if not create one for 7 feb at 10:00 am to 11:00 am named 'meeting with michael'"
     )
 
     model = ChatOpenAI(
